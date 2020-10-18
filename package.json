@@ -1,0 +1,19 @@
+{
+  "name": "live-code-node-googlevision",
+  "version": "1.0.0",
+  "description": "OCR demo using Google Vision",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Nara",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/vision": "^2.1.2",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "path": "^0.12.7"
+  }
+}
